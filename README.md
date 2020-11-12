@@ -15,7 +15,7 @@ JDK (>= 11) and maven are required to build package.
 
 ### Build
 
-Execute mvn command as below, and you can get package as target/kuromoji-linguistics-${VERSION}-deploy.jar
+Execute mvn command as below:
 
 ```
 $ cd vespa-chinese-linguistics
