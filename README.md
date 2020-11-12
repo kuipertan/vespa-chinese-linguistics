@@ -18,6 +18,8 @@ JDK (>= 11) and maven are required to build package.
 Execute mvn command as below, and you can get package as target/kuromoji-linguistics-${VERSION}-deploy.jar
 
 ```
+$ cd vespa-chinese-linguistics
+$ mvn install:install-file -Dfile=./libs/jieba-analysis-1.0.3-SNAPSHOT.jar -DgroupId=com.huaban.analysis -DartifactId=jieba -Dversion=1.0.3-SNAPSHOT -Dpackaging=jar
 $ mvn package -Dvespa.version='7.301.24'     # You can specify 7.301.24 or later.
 ```
 
